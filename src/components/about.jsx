@@ -1,8 +1,9 @@
 import {
-  FaUserGraduate,
+  FaLaptopCode,
   FaFolderOpen,
   FaMapMarkerAlt,
   FaEnvelope,
+    FaGraduationCap,
 } from "react-icons/fa";
 
 import pro from "../assets/ask2.webp";
@@ -11,7 +12,12 @@ import { useRef } from "react";
 
 export default function About() {
   const infos = [
-    { icon: <FaUserGraduate />, title: "Experience", value: "3+ Years" },
+    {
+    icon: <FaGraduationCap />,
+    title: "Education",
+    value: "M.Sc. Computer Engineering (Software)",
+  },
+    { icon: <FaLaptopCode/>, title: "Experience", value: "3+ Years" },
     { icon: <FaFolderOpen />, title: "Projects", value: "6+ Completed" },
     { icon: <FaMapMarkerAlt />, title: "Location", value: "Gilan, Rasht" },
     { icon: <FaEnvelope />, title: "Email", value: "s0heil.r20000@gmail.com" },
@@ -65,7 +71,7 @@ const backgrounds = [
           </span>
 
 <h2 className="
-mt-5
+mt-3
   text-4xl
   max-[1046px]:text-3xl
  
@@ -90,7 +96,7 @@ mt-5
           </p>
 
          
-          <div className="mt-10 flex w-fit flex-col gap-5 self-center md:self-start">
+          <div className="mt-7 flex w-fit flex-col gap-5 self-center md:self-start">
             {infos.map((item) => (
               <div key={item.title} className="flex items-center gap-4 font-medium">
                 <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-lg text-pink-400">
