@@ -1,4 +1,4 @@
-import profile from "../assets/ask.jpg";
+import profile from "../assets/ask.webp";
 import {
   FaGithub,
   FaLinkedin,

@@ -5,7 +5,7 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 
-import pro from "../assets/ask2.jfif";
+import pro from "../assets/ask2.webp";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 

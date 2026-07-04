@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-import pic1 from "../assets/img1.png";
-import pic2 from "../assets/img2.png";
-import pic3 from "../assets/img3.png";
-import pic4 from "../assets/img4.jfif";
-import pic5 from "../assets/img5.png";
-import pic6 from "../assets/img6.png";
+import pic1 from "../assets/img1.webp";
+import pic2 from "../assets/img2.webp";
+import pic3 from "../assets/img3.webp";
+import pic4 from "../assets/img4.webp";
+import pic5 from "../assets/img5.webp";
+import pic6 from "../assets/img6.webp";
 
 const projects = [
   {

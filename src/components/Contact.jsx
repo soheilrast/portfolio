@@ -11,7 +11,7 @@ import {
   FiSend,
 } from "react-icons/fi";
 
-import pro from "../assets/w71.jfif";
+import pro from "../assets/w71.webp";
 
 
 const schema = yup.object().shape({
