@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://soheildev.pages.dev/sitemap.xml
+Sitemap: https://soheilrast.github.io/portfolio/sitemap.xml
