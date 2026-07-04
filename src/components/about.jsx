@@ -96,20 +96,37 @@ mt-3
           </p>
 
          
-          <div className="mt-7 flex w-fit flex-col gap-5 self-center md:self-start">
-            {infos.map((item) => (
-              <div key={item.title} className="flex items-center gap-4 font-medium">
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-lg text-pink-400">
-                  {item.icon}
-                </div>
+          <div className="mt-7 flex w-fit flex-col gap-3 sm:gap-5 self-center md:self-start">
+  {infos.map((item) => (
+    <div
+      key={item.title}
+      className="flex items-center gap-3 sm:gap-4 font-medium"
+    >
+      <div
+        className="
+          flex h-9 w-9 sm:h-11 sm:w-11
+          items-center justify-center
+          rounded-lg sm:rounded-xl
+          border border-white/10
+          bg-white/5
+          text-base sm:text-lg
+          text-pink-400
+        "
+      >
+        {item.icon}
+      </div>
 
-                <div className="text-left">
-                  <h4 className="text-sm text-white/60">{item.title}</h4>
-                  <p className="font-semibold text-white">{item.value}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+      <div className="text-left">
+        <h4 className="text-xs sm:text-sm text-white/60">
+          {item.title}
+        </h4>
+        <p className="text-sm sm:text-base font-semibold text-white">
+          {item.value}
+        </p>
+      </div>
+    </div>
+  ))}
+</div>
         </motion.div>
 
        
