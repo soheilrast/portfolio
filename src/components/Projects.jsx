@@ -198,9 +198,7 @@ export default function Projects() {
               
                 <div className="h-36 overflow-hidden">
                   <img
-                  loading="lazy"
                     src={project.image}
-                decoding="async"
                     alt={project.title}
                     onClick={() => setSelectedImage(project.image)}
                     className="

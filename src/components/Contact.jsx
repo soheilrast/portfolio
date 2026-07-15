@@ -303,7 +303,6 @@ lastSent.current = now;
                   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-600/40 to-pink-500/40 blur-[90px]" />
                   <img
                     src={pro}
-                    loading="lazy"
                     alt="Contact"
                     className="relative rounded-3xl object-fill w-[390px] h-[330px] border border-white/10 shadow-2xl"
                   />
