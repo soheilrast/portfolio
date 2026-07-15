@@ -142,6 +142,7 @@ export default function Hero() {
             <div className="p-[2px] rounded-2xl bg-gradient-to-tr from-pink-500 via-purple-500 to-blue-500">
               <img
                 src={profile}
+                  fetchPriority="high"
                 alt="Soheil Rastari"
                 className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl"
               />
