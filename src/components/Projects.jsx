@@ -200,7 +200,7 @@ export default function Projects() {
                   <img
                   
                     src={project.image}
-                    loading="lazy"
+                
                     alt={project.title}
                     onClick={() => setSelectedImage(project.image)}
                     className="

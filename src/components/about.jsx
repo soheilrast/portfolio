@@ -177,7 +177,7 @@ mt-3
               <div className="rounded-[28px] bg-gradient-to-br from-pink-500 via-purple-500 to-cyan-500 p-[2px]">
                 <div className="overflow-hidden rounded-[26px] bg-[#111827]">
                   <img
-                  loading="lazy"
+                 
                   
   src={pro}
   alt="Developer"
