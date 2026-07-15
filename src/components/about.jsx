@@ -178,7 +178,7 @@ mt-3
                 <div className="overflow-hidden rounded-[26px] bg-[#111827]">
                   <img
                   loading="lazy"
-                  fetchPriority="high"
+                  
   src={pro}
   alt="Developer"
  className="h-[320px] md:h-[360px] lg:h-[420px] w-full object-cover transition duration-700 hover:scale-110"

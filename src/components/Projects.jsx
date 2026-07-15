@@ -198,7 +198,7 @@ export default function Projects() {
               
                 <div className="h-36 overflow-hidden">
                   <img
-                  fetchPriority="high"
+                  
                     src={project.image}
                     loading="lazy"
                     alt={project.title}
